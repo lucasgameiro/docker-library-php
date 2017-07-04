@@ -14,3 +14,5 @@ RUN apt-get update && apt-get install -y \
 
 RUN a2enmod rewrite
 RUN a2enmod headers
+
+VOLUME /var/www/html
